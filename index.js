@@ -20,17 +20,22 @@ module.exports = {
   ],
   overrides: [
     {
-      files: ['**.js', '**.json'],
+      files: ['**.js', '**.json', '**.ts', '**.tsx', '**.jsx'],
       rules: {
         'jsdoc/require-returns': 'off',
         'sort-keys-fix/sort-keys-fix': 'error',
+      },
+    },
+    {
+      files: ['*.ts', '*.tsx'], // Your TypeScript files extension
+      parserOptions: {
+        project: ['./tsconfig.json'], // Specify it only for TypeScript files
       },
     },
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 12,
-    parser: 'babel-eslint',
     sourceType: 'module',
   },
   plugins: [
