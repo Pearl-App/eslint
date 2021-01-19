@@ -2,6 +2,10 @@
 
 A standard ESLint configuration for Pearl applications
 
+## Requirements
+
+- `eslint >7.X.X`
+
 ## Basic Usage
 
 ```js

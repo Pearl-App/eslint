@@ -1,6 +1,6 @@
 {
   "name": "@pearl-app/eslint-config-pearl",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Standard Pearl ESLint Configurations",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,9 @@
   "homepage": "https://github.com/pearl-app/eslint-config-pearl#readme",
   "devDependencies": {
     "eslint": "^7.18.0",
-    "eslint-loader": "^4.0.2"
+    "eslint-loader": "^4.0.2",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
   },
   "peerDependencies": {
     "eslint": ">= 7.18.0"
@@ -40,8 +42,10 @@
     "eslint-plugin-babel": "^5.3.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsdoc": "^31.0.7",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-only-error": "^1.0.2",
     "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-sort-keys-fix": "^1.1.1",
